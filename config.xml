@@ -38,7 +38,8 @@
   <srcdir>src</srcdir>
   <docdir>doc</docdir>
   <bindir>bin</bindir>
-  <libdir>src</libdir>
+  <depdir>dep</depdir>
+  <libdir>lib</libdir>
   
   <test>
     <!-- The filename pattern to recognize test files -->
