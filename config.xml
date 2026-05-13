@@ -35,12 +35,17 @@
   <!-- The target JDK for which we are compiling -->
   <targetjdk>11</targetjdk>
   
+  <srcdir>src</srcdir>
+  <docdir>doc</docdir>
+  <bindir>bin</bindir>
+  <libdir>src</libdir>
+  
   <test>
     <!-- The filename pattern to recognize test files -->
-    <!-- <filenamepattern>
+    <filenamepattern>
            <src>**/*Test.java</src>
            <bin>**/*Test.class</bin>
-         </filenamepattern> -->
+    </filenamepattern>
   </test>
   
   <!--
